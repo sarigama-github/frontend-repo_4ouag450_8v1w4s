@@ -61,7 +61,7 @@ function App() {
               <LeadStory
                 headline="Extraordinary Apparatus Proposed For The Underground"
                 subhead="Engineers assert a device to banish damp and deliver sweeter airs"
-                imageUrl="https://i.ibb.co/ks4WKqrM/image.png"
+                imageUrl="https://i.ibb.co/1tRLzrcS/image.png"
                 caption="An artist’s impression, engraved from a sketch, of the ventilating machinery as it might appear below the thoroughfare."
                 body={(
                   <>
@@ -118,6 +118,43 @@ function App() {
                   <li><span className="font-semibold">BIRTH.</span> At Islington, to Mr. and Mrs. Hargrave, a son.</li>
                   <li><span className="font-semibold">MARRIAGE.</span> Mr. Chiltern to Miss A—, both of good report.</li>
                   <li><span className="font-semibold">DEATH.</span> Respectfully noted, Mr. J—, a watchmaker, much esteemed.</li>
+                </ul>
+              </div>
+
+              {/* Additional right-rail content to balance the column */}
+              <div className="mt-6 border-t border-zinc-800 pt-4">
+                <Article
+                  kicker="Shipping Intelligence"
+                  headline="Arrivals & Departures Along The Thames"
+                  byline="From Our River Reporter"
+                  body={(
+                    <>
+                      <p className="mb-3">The <em>Mercury</em> (Hull) came in with grain and sundries; the <em>Perseverance</em> cleared for Lisbon with a mixed cargo. Several barges reported rough going under a contrary wind below Gravesend.</p>
+                      <p className="mb-3">Pilotage fees are said to be under review; lightermen anticipate modest relief in the spring schedule.</p>
+                    </>
+                  )}
+                />
+              </div>
+
+              <div className="mt-6">
+                <Article
+                  kicker="Court & Police"
+                  headline="A Disturbance In Seven Dials"
+                  body={(
+                    <>
+                      <p className="mb-3">A hawker was brought before the magistrate on the charge of causing a tumult by over-loud entreaties respecting stockings of remarkable durability. He was admonished and discharged upon a promise of quieter commerce.</p>
+                      <p className="mb-3">In a separate case, a stray goat was returned to its owner, having eaten a portion of a tradesman’s account-book to the value, it is said, of several shillings.</p>
+                    </>
+                  )}
+                />
+              </div>
+
+              <div className="mt-6 border-y border-zinc-800 py-4">
+                <h3 className="uppercase tracking-[0.2em] text-[10px] text-zinc-700 mb-2">Market Reports</h3>
+                <ul className="text-[12px] leading-5 space-y-2">
+                  <li><span className="font-semibold">Corn Exchange.</span> Wheat steady; barley easy; oats in fair demand.</li>
+                  <li><span className="font-semibold">Smithfield.</span> Beef moderate; mutton plentiful; prices generally firm.</li>
+                  <li><span className="font-semibold">Metals.</span> Iron active with improved orders; copper unchanged.</li>
                 </ul>
               </div>
 
