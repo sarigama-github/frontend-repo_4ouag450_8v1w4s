@@ -61,7 +61,7 @@ function App() {
               <LeadStory
                 headline="Extraordinary Apparatus Proposed For The Underground"
                 subhead="Engineers assert a device to banish damp and deliver sweeter airs"
-                imageUrl="https://images.unsplash.com/photo-1523537445-8f3b8171e7f3?q=80&w=1200&auto=format&fit=crop"
+                imageUrl="https://i.ibb.co/ks4WKqrM/image.png"
                 caption="An artist’s impression, engraved from a sketch, of the ventilating machinery as it might appear below the thoroughfare."
                 body={(
                   <>
